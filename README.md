@@ -31,7 +31,8 @@ OpenWanderer is not a single monolithic applicatiom, but rather a series of modu
 Please see the individual repositories:
 
 - [jsapi](https://github.com/openwanderer/jsapi) - the client-side JavaScript API
-- [server](https://github.com/openwanderer/server) - the server platform
+- [node-server](https://github.com/openwanderer/node-server) - the new, Node.js based server platform
+- [server](https://github.com/openwanderer/server) - the PHP-based server platform
 - [server-bot](https://github.com/openwanderer/server-bot) - the server-side "bot"
 - [example-app](https://github.com/openwanderer/example-app) - the example full OpenWanderer application, designed to show what the platform is currently capable of. As well as the full example, there is also a minimal, basic example showing the absolute basic functionality (upload and navigation) only.
 
