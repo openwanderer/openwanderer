@@ -24,7 +24,7 @@ At the moment, OpenWanderer is very early in development but even at this stage 
 
 ## Components
 
-OpenWanderer is not a single monolithic applicatiom, but rather a series of modular components which you can pick and choose from. There is a client-side JavaScript API which can be used standalone with static panoramic images, and a server-side application which can serve panorama sequences and manage the upload of new ones. Additionally, there is a server-side 'bot' which aims to perform background processing tasks such as add elevation to panoramas, and later, perform vital anonymisation tasks such as blur faces and license plates. (We have already done preliminary work on this but are in the process of selecting the best anonymisation approach).
+OpenWanderer is not a single monolithic applicatiom, but rather a series of modular components which you can pick and choose from. There is a client-side JavaScript API which can be used standalone with static panoramic images, and a server-side application which can serve panorama sequences and manage the upload of new ones. Additionally, there are various server scripts which aim to perform background processing tasks such as adding elevation to panoramas, and performing vital anonymisation tasks such as blur faces and license plates.
 
 ## Repositories
 
@@ -33,8 +33,9 @@ Please see the individual repositories:
 - [jsapi](https://github.com/openwanderer/jsapi) - the client-side JavaScript API
 - [node-server](https://github.com/openwanderer/node-server) - the new, Node.js based server platform
 - [server](https://github.com/openwanderer/server) - the PHP-based server platform
-- [server-bot](https://github.com/openwanderer/server-bot) - the server-side "bot"
+- [add-elevation](https://github.com/openwanderer/add-elevation) - script to add elevation to panos using Terrarium data 
 - [example-app](https://github.com/openwanderer/example-app) - the example full OpenWanderer application, designed to show what the platform is currently capable of. As well as the full example, there is also a minimal, basic example showing the absolute basic functionality (upload and navigation) only.
+- [anon](https://github.com/openwanderer/anon) - anonymiser to blur faces and license plates.
 
 ## Licensing
 
